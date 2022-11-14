@@ -1,13 +1,14 @@
 {
-  "name": " ",
+  "name": "my--website",
   "version": "0.0.1",
-  "description": "",
-  "keywords": "",
-  "license": "",
-  "author": "",
+  "description": "This is a project for my portfolio website",
+  "keywords": ["portfolio", "website", "Aaron Cervantes", "soyaaroncervantes", "html", "TCP", "Tecnolochicas", "Tecnolochicas Pro", "TCP"],
+  "license": "MIT",
+  "author": "Aaron Cervantes",
   "scripts": {
     "build": "parcel build index.html",
-    "build:css": "npx tailwindcss -i ./css/main.css -o ./dist/main.css --watch",
+    "build:css": "npx tailwindcss -i ./css/main.css -o ./dist/main.css",
+    "watch:css": "npx tailwindcss -i ./css/main.css -o ./dist/main.css --watch",
     "dev": "parcel index.html --open",
     "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
