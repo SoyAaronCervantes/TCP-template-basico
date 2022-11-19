@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&family=Roboto:wght@300;400&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 :root {
   --fuente-principal: 'Roboto', sans-serif;
   --fuente-titulo:'Raleway', sans-serif;
@@ -18,4 +14,18 @@
 .historia--titulo {
   font-family: var(--fuente-titulo);
   font-size: 2rem;
+}
+
+.perfil,
+.usuario--social {
+  display: flex;
+}
+
+.usuario--social-item {
+  width: 4rem;
+  height: auto;
+}
+
+img {
+  width: 100%;
 }
