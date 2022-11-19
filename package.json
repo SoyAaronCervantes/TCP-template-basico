@@ -32,6 +32,10 @@
     "typescript": "^4.8.4"
   },
   "dependencies": {
-    "lit": "^2.4.1"
+    "components": "^0.1.0",
+    "layout": "^2.2.0",
+    "lit": "^2.4.1",
+    "tokens.css": "^1.1.5",
+    "utility": "^1.17.0"
   }
 }
