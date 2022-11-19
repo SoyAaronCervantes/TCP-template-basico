@@ -43,3 +43,13 @@ img {
   grid-template-columns: 1fr;
   grid-template-rows: auto auto;
 }
+
+.usuario--imagen,
+.usuario--datos {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.usuario--datos {
+  align-self: end;
+}
