@@ -30,7 +30,7 @@
 }
 
 .usuario--social-item {
-  width: 4rem;
+  inline-size: 2rem;
   height: auto;
 }
 
@@ -42,6 +42,9 @@ img {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto;
+  inline-size: 20rem;
+  border-radius: 2rem;
+  overflow: clip;
 }
 
 .usuario--imagen,
@@ -52,4 +55,7 @@ img {
 
 .usuario--datos {
   align-self: end;
+  padding: 1rem;
+  background-color: #0e0e0e;
+  color: #f1f1f1;
 }
