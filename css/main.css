@@ -1,61 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&family=Roboto:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&family=Roboto:wght@300;400&display=swap');
 
-:root {
-  --fuente-principal: "Roboto", sans-serif;
-  --fuente-titulo: "Raleway", sans-serif;
-}
+@import url('./themes/theme.css');
 
-.body {
-  font-family: var(--fuente-principal);
-  font-size: 1.2rem;
-}
+@import url('./utility/flex.css');
+@import url('./utility/material-icons.css');
+@import url('./utility/vectors.css');
 
-.historia--titulo {
-  font-family: var(--fuente-titulo);
-  font-size: 2rem;
-}
+@import url('./layout/body.grid.css');
+@import url('./layout/hobbies.grid.css');
+@import url('./layout/main.grid.css');
+@import url('./layout/profile.grid.css');
+@import url('./layout/section.grid.css');
+@import url('./layout/user.grid.css');
 
-.perfil,
-.usuario--social {
-  display: flex;
-}
+@import url('./components/sidebar.css');
+@import url('./components/story.css');
+@import url('./components/user.css');
 
-.perfil {
-  gap: 3rem;
-  flex-wrap: wrap;
-}
-
-.usuario--social {
-  gap: 1rem;
-}
-
-.usuario--social-item {
-  inline-size: 2rem;
-  height: auto;
-}
-
-img {
-  width: 100%;
-}
-
-.usuario {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto;
-  inline-size: 20rem;
-  border-radius: 2rem;
-  overflow: clip;
-}
-
-.usuario--imagen,
-.usuario--datos {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-}
-
-.usuario--datos {
-  align-self: end;
-  padding: 1rem;
-  background-color: #0e0e0e;
-  color: #f1f1f1;
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
 }
