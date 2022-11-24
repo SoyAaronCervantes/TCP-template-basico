@@ -1,6 +1,9 @@
 .story {
   align-self: center;
   max-width: 40rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  background-color: rgba(66, 66, 66, 0.7);
 }
 
 .story--me,

@@ -2,8 +2,8 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto;
-  inline-size: 30vw;
-  margin: auto;
+  inline-size: 25vw;
+  height: fit-content;
 }
 
 
