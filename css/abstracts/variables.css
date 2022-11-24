@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&family=Roboto:wght@300;400&display=swap');
+
+:root {
+    --header-typography: 'Raleway', sans-serif;
+    --main-typography: 'Roboto', sans-serif;
+
+    --main--color: #f48fb1;
+    --secondary--color: #ffcc80;
+    --dark--text--color: #212121;
+    --light--text--color: #f1f1f1;
+}
